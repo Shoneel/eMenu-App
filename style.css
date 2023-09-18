@@ -194,7 +194,7 @@ header section {
   font-size: 15px;
   font-weight: 600;
   width: 500px;
-  word-break: break-all;
+  /* word-break: break-all; */
 }
 
 .price_order {
@@ -373,6 +373,10 @@ footer {
   header {
     width: 95%;
   }
+
+  .content p {
+    width: 300px;
+  }
 }
 
 @media screen and (max-width: 775px) {
@@ -457,6 +461,10 @@ footer {
 }
 
 @media screen and (max-width: 418px) {
+  .content {
+    left: 11%;
+    top: 43%;
+  }
   .content h1 {
     font-size: 32px;
   }
